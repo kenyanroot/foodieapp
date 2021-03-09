@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+nav ul li{
+    color: #fff;
+    display: inline;
+    margin-left: auto;
+    
+}
+
+
+
+nav span{
+    color: #fff;
+    margin-left: 30px;
+    font-size: 2em;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: auto;
+    width: 50vw;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    margin-right: 30px;
+    
+    
+}
+.mycontainer {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #F06400;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 60px;
+
+    
+
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+.food-icons{
+
+    width: 50%;
+    height: 50%;
+}
+
+.text-and-button{
+
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+button{
+    background-color: #F06400;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+@media(max-width:768px){
+    .card{
+        width: 280px;
+        height:280px;
+    }
+}
